@@ -3,43 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PUMA SITE</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="script.js" defer></script>
+    <title>Puma</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
-        <!--text slider -->
-        <div class="text-slider">
-            <span id="text">FREE RETURNS AND FREE EXCHANGE.</span>
+    <nav>
+        <div class="logo">
+            <img src="https://imgs.search.brave.com/lzwDuLfqXM1OzrBvkDjg8ArqAdKHtERdta9BY_Rnt3I/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMudHVyYm9sb2dv/LmNvbS9ibG9nL2Vu/LzIwMTkvMTEvMTkw/ODQ5MTQvUHVtYS1s/b2dvLnBuZw" alt="loading...">
         </div>
-        <!-- navbar -->
-         <nav>
-           <ul class="header">
-            <div class="left-bar">
-              <li><i class="fa-solid fa-bars"></i></li>
-          <li><img  class="puma-image" src="./images/puma-2-xxl.png" alt=""></li>
-         
-            <li>New</li>
-            <li>Women</li>
-            <li>Men</li>
-            <li>Kids</li>
-            <li>Motosport</li>
-            <li>collaborations</li>
-            <li>sports</li>
-            <li>Sale</li>
-            <li>PaleRmo</li>
+        <ul id="menuList">
+            <li id="menu"><a href="#">New</a></li>
+            <li id="menu"><a href="#">Women</a></li>
+            <li id="menu"><a href="#">Men</a></li>
+            <li id="menu"><a href="#">Kids</a></li>
+            <li id="menu"><a href="#">Motosports</a></li>
+            <li id="menu"><a href="#">Collaborations</a></li>
+            <li id="menu"><a href="#">Sports</a></li>
+            <li id="menu"><a href="#">Sales</a></li>
+        </ul> 
+        
+       
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
         </div>
-            <div class="right-bar">
-           <li> <i class="fa-solid fa-magnifying-glass"></i></li>
-           <li><i class="fa-regular fa-heart"></i></li>
-           <li><i class="fa-solid fa-cart-shopping"></i></li>
-           <li><i class="fa-regular fa-user"></i></li>
-        </div>
-           </ul> 
-         </nav>
-        </div>
-    </body>
-
+        
+        <ul id="List">
+                <li id="list"><i class="fa-solid fa-magnifying-glass"></i></li>
+                <li id="list"><i class="fa-regular fa-heart"></i></li>
+                <li id="list"><i class="fa-solid fa-cart-shopping"></i></li>
+                <li id="list"><i class="fa-regular fa-user"></i></li>
+            </ul>
+    </nav>
+    <script src="script.js"></script>
+</body>
 </html>
