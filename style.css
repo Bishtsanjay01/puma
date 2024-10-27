@@ -100,3 +100,9 @@ color: white;
             transform: translateX(-50%)
     }
 }
+
+@media (max-width:660px){
+    .logo{
+        left: 30%;
+    }
+}
